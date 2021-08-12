@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="css/styleimage.css">
     <title>Slide</title>
 </head>
-<body onmouseover="stopSlide()" onmouseout="startSlide()">
-
-    <script src="js/slide.js"></script>
+<body>
+    <div class="container">
+    <img src="images/NS1.jpg" alt="" onmouseover="stopSlide()" onmouseout="startSlide()" id="image">  
     <a href="" class="previous round" onclick="prevImage()">&#8249;</a>
     <a href="" class="next round" onclick="nextImage()">&#8250;</a>
+</div>
 
+<script src="js/slide.js"></script>
 </body>
 </html>
